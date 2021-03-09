@@ -1,0 +1,524 @@
+{
+  "metadata": {
+    "age_binning": {
+      "hospitalizations": [
+       "0-24",
+        "25-49",
+        "50-74",
+        "75-"
+      ],
+      "population": [
+        "0-24",
+        "25-49",
+        "50-74",
+        "75-"
+      ]
+    }
+  },
+  "region": {
+    "name": "Eriador-Minhiriath-Eryn Vorn",
+    "key": "ER-Mi-EV",
+    "latitude": 128.23,
+    "longitude": 0.012,
+    "elevation": -23.47,
+    "area": {
+      "total": 743.34,
+      "rural": 123.89,
+      "urban": 619.45
+    },
+    "population": {
+      "total": 5785312,
+      "male": 2587247,
+      "female": 3198065,
+      "age": [
+        255457,
+        2558068,
+        2673568,
+        298219
+      ],
+      "rural": 1928437,
+      "urban": 3856875
+    },
+    "open_street_maps": 302537,
+    "noaa_station": 1019110349999,
+    "noaa_distance": 12.04
+  },
+  "evolution": {
+    "2020-03-16": {
+      "hospitalizations": {
+        "hospitalized": {
+          "new": {
+            "all": 72,
+            "male": 28,
+            "female": 44,
+            "age": [
+              15,
+              23,
+              21,
+              13
+            ]
+          },
+          "total": {
+            "all": 578603,
+            "male": 289036,
+            "female": 289567,
+            "age": [
+              96544,
+              192772,
+              192930,
+              96357
+            ]
+          },
+          "current": {
+            "all": 17254,
+            "male": 8694,
+            "female": 8560,
+            "age": [
+              2938,
+              5768,
+              5589,
+              2959
+            ]
+          }
+        },
+        "intensive_care": {
+          "new": {
+            "all": 195,
+            "male": 112,
+            "female": 83,
+            "age": [
+              41,
+              50,
+              72,
+              32
+            ]
+          },
+          "total": {
+            "all": 46477,
+            "male": 23324,
+            "female": 23153,
+            "age": [
+              7753,
+              15568,
+              15446,
+              7710
+            ]
+          },
+          "current": {
+            "all": 546,
+            "male": 251,
+            "female": 295,
+            "age": [
+              100,
+              163,
+              186,
+              97
+            ]
+          }
+        },
+        "ventilator": {
+          "new": {
+            "all": 226,
+            "male": 115,
+            "female": 111,
+            "age": [
+              37,
+              81,
+              74,
+              34
+            ]
+          },
+          "total": {
+            "all": 11796,
+            "male": 5891,
+            "female": 5905,
+            "age": [
+              2022,
+              3820,
+              3910,
+              2044
+            ]
+          },
+          "current": {
+            "all": 261,
+            "male": 135,
+            "female": 126,
+            "age": [
+              40,
+              93,
+              85,
+              43
+            ]
+          }
+        }
+      },
+      "epidemiology": {
+        "confirmed": {
+          "new": {
+            "all": 144,
+            "male": 66,
+            "female": 78,
+            "age": [
+              29,
+              49,
+              43,
+              23
+            ]
+          },
+          "total": {
+            "all": 1712595,
+            "male": 855285,
+            "female": 857310,
+            "age": [
+              284931,
+              571866,
+              570702,
+              285096
+            ]
+          }
+        },
+        "deceased": {
+          "new": {
+            "all": 107,
+            "male": 55,
+            "female": 52,
+            "age": [
+              14,
+              41,
+              29,
+              23
+            ]
+          },
+          "total": {
+            "all": 256974,
+            "male": 128729,
+            "female": 128245,
+            "age": [
+              43009,
+              84945,
+              86380,
+              42640
+            ]
+          }
+        },
+        "recovered": {
+          "new": {
+            "all": 360,
+            "male": 178,
+            "female": 182,
+            "age": [
+              59,
+              128,
+              108,
+              65
+            ]
+          },
+          "total": {
+            "all": 1199075,
+            "male": 600308,
+            "female": 598767,
+            "age": [
+              199525,
+              399283,
+              400334,
+              199933
+            ]
+          }
+        },
+        "tested": {
+          "new": {
+            "all": 1008,
+            "male": 489,
+            "female": 519,
+            "age": [
+              180,
+              344,
+              319,
+              165
+            ]
+          },
+          "total": {
+            "all": 6131582,
+            "male": 3068893,
+            "female": 3062689,
+            "age": [
+              1021656,
+              2044302,
+              2042830,
+              1022794
+            ]
+          }
+        }
+      },
+      "weather": {
+        "temperature": {
+          "average": 1.638889,
+          "min": -2.604167,
+          "max": 9.104167
+        },
+        "rainfall": 0.145143,
+        "snowfall": 40.64,
+        "dew_point": -0.706349,
+        "relative_humidity": 84.131573
+      },
+      "government_response": {
+        "school_closing": 0,
+        "workplace_closing": 1,
+        "cancel_public_events": 0,
+        "restrictions_on_gatherings": 0,
+        "public_transport_closing": 0,
+        "stay_at_home_requirements": 1,
+        "restrictions_on_internal_movement": 0,
+        "international_travel_controls": 0,
+        "income_support": 0,
+        "debt_relief": 0,
+        "fiscal_measures": 0,
+        "international_support": 0,
+        "public_information_campaigns": 2,
+        "testing_policy": 1,
+        "contact_tracing": 0,
+        "emergency_investment_in_healthcare": 0,
+        "investment_in_vaccines": 0,
+        "stringency_index": 16.67
+      }
+    },
+    "2020-03-17": {
+      "hospitalizations": {
+        "hospitalized": {
+          "new": {
+            "all": 158,
+            "male": 84,
+            "female": 74,
+            "age": [
+              31,
+              65,
+              37,
+              25
+            ]
+          },
+          "total": {
+            "all": 578761,
+            "male": 289120,
+            "female": 289641,
+            "age": [
+              96575,
+              192837,
+              192967,
+              96382
+            ]
+          },
+          "current": {
+            "all": 16982,
+            "male": 8562,
+            "female": 8420,
+            "age": [
+              2893,
+              5703,
+              5490,
+              2896
+            ]
+          }
+        },
+        "intensive_care": {
+          "new": {
+            "all": 1061,
+            "male": 429,
+            "female": 632,
+            "age": [
+              178,
+              375,
+              330,
+              178
+            ]
+          },
+          "total": {
+            "all": 47538,
+            "male": 23753,
+            "female": 23785,
+            "age": [
+              7931,
+              15943,
+              15776,
+              7888
+            ]
+          },
+          "current": {
+            "all": 1431,
+            "male": 600,
+            "female": 831,
+            "age": [
+              250,
+              484,
+              456,
+              241
+            ]
+          }
+        },
+        "ventilator": {
+          "new": {
+            "all": 246,
+            "male": 128,
+            "female": 118,
+            "age": [
+              53,
+              74,
+              81,
+              38
+            ]
+          },
+          "total": {
+            "all": 12042,
+            "male": 6019,
+            "female": 6023,
+            "age": [
+              2075,
+              3894,
+              3991,
+              2082
+            ]
+          },
+          "current": {
+            "all": 293,
+            "male": 172,
+            "female": 121,
+            "age": [
+              61,
+              94,
+              94,
+              44
+            ]
+          }
+        }
+      },
+      "epidemiology": {
+        "confirmed": {
+          "new": {
+            "all": 790,
+            "male": 424,
+            "female": 366,
+            "age": [
+              130,
+              278,
+              258,
+              124
+            ]
+          },
+          "total": {
+            "all": 1713385,
+            "male": 855709,
+            "female": 857676,
+            "age": [
+              285061,
+              572144,
+              570960,
+              285220
+            ]
+          }
+        },
+        "deceased": {
+          "new": {
+            "all": 159,
+            "male": 74,
+            "female": 85,
+            "age": [
+              22,
+              50,
+              57,
+              30
+            ]
+          },
+          "total": {
+            "all": 257133,
+            "male": 128803,
+            "female": 128330,
+            "age": [
+              43031,
+              84995,
+              86437,
+              42670
+            ]
+          }
+        },
+        "recovered": {
+          "new": {
+            "all": 5018,
+            "male": 2522,
+            "female": 2496,
+            "age": [
+              844,
+              1689,
+              1627,
+              858
+            ]
+          },
+          "total": {
+            "all": 1204093,
+            "male": 602830,
+            "female": 601263,
+            "age": [
+              200369,
+              400972,
+              401961,
+              200791
+            ]
+          }
+        },
+        "tested": {
+          "new": {
+            "all": 3950,
+            "male": 1983,
+            "female": 1967,
+            "age": [
+              640,
+              1328,
+              1321,
+              661
+            ]
+          },
+          "total": {
+            "all": 6135532,
+            "male": 3070876,
+            "female": 3064656,
+            "age": [
+              1022296,
+              2045630,
+              2044151,
+              1023455
+            ]
+          }
+        }
+      },
+      "weather": {
+        "temperature": {
+          "average": 1.920635,
+          "min": -1.984127,
+          "max": 10.849206
+        },
+        "rainfall": 0.08466699999999999,
+        "snowfall": 0,
+        "dew_point": 0.018519,
+        "relative_humidity": 87.152206
+      },
+      "government_response": {
+        "school_closing": 0,
+        "workplace_closing": 1,
+        "cancel_public_events": 1,
+        "restrictions_on_gatherings": 0,
+        "public_transport_closing": 0,
+        "stay_at_home_requirements": 1,
+        "restrictions_on_internal_movement": 0,
+        "international_travel_controls": 0,
+        "income_support": 0,
+        "debt_relief": 1,
+        "fiscal_measures": 0,
+        "international_support": 0,
+        "public_information_campaigns": 2,
+        "testing_policy": 1,
+        "contact_tracing": 0,
+        "emergency_investment_in_healthcare": 0,
+        "investment_in_vaccines": 0,
+        "stringency_index": 22.22
+      }
+    }
+  }
+}
